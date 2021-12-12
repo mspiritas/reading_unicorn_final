@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Unicorn</title>
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/app.css">
+    <script tpye="text/javascript" src="../js/materialize.min.js"></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body class="grey lighten-4">
+    <nav class="z-depth-0">
+        <div class="nav-wrapper container">
+            <a href="../index.html">Reading<span> Unicorn</span></a>
+            <span>
+                <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+            </span>
+        </div>
+    </nav>
+ 
+    <!--Reading Material-->
+    <form class="add-title container section">
+        <h6>Contact Reading Unicorn</h6>
+        <div class="divider"></div>
+    </form>
+
+    <form class="contact" action="../php/contact.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="First and last name">
+        <label for="subject">Subject</label>
+        <input type="text" id="name" name="name" placeholder="Subject">
+        <label for="message">Message</label>
+        <input type="text" id="name" name="name" placeholder="Please enter your reason for contacting Reading Unicorn">
+        <div class="input-field-2 center">
+            <button class="btn-small btn-blue">Search</button>
+        </div>
+    </form>
+        
+<script src="js/ui.js"></script>
+
+</body>
+
+</html>

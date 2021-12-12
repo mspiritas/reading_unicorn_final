@@ -1,0 +1,26 @@
+{
+    "name": "Reading Unicorn",
+    "short_name": "RU",
+    "description": "Upload and read your books on your computer",
+    "start_url": "index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#FFE9D2",
+    "theme_color": "#FFCAF2",
+    "dir": "ltr",
+    "lang": "en-US",
+    "icons": [
+
+        {
+            "src": "img/unicorn.PNG",
+            "type": "image/png",
+            "sizes": "467x618"
+        },
+        {
+            "src": "img/unicorn2.PNG",
+            "type": "image/png",
+            "sizes": "462x337"
+        }
+    ]
+}

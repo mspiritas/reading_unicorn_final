@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Unicorn</title>
+    <link rel="stylesheet" href="public/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/app.css">
+    <script tpye="text/javascript" src="public/js/materialize.min.js"></script>
+    <link rel="manifest" href="public/manifest.json">
+</head>
+
+<body class="grey lighten-4">
+    <nav class="z-depth-0">
+        <div class="nav-wrapper container">
+            <a href="/">Reading<span> Unicorn</span></a>
+            <span>
+                <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+            </span>
+        </div>
+    </nav>
+
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader">READING UNICORN</a></li>
+        <li><a href="public/index.html" class="waves-effect">Search My Book Library</a></li>
+        <li><a href="public/pages/about.html" class="waves-effect">About</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="public/pages/contact.html" class="waves-effect"><i class="material-icons">mail_outline</i>Contact</a>
+            
+        </li>
+    </ul>
+ 
+    <!--Reading Material-->
+<div class="books container grey-text text-darken-1">
+    <div class="center">
+    <img src="public/img/unicorn.PNG" alt="Reading Unicorn" height="50%" width="50%">
+    </div>
+</div>
+
+
+    <form class="add-title container section">
+        <div class="center">
+        <h6>Search My Book Library</h6>
+        <div class="divider"></div>
+        </div>
+        <div class="input-field">
+            <div class="center">
+            <input placeholder="Enter Book Title" id="title" class="validate" type="text">
+            </div>
+        </div>
+
+        <div class="input-field center">
+            <button class="btn-small btn-blue">Search</button>
+        </div>
+    </form>
+
+
+<script type="text/javascript" src="public/js/ui.js"></script>
+<script type="text/jacasvript" src="public/js/app.js"></script>
+<script type="module" src="public/js/db.js"></script>
+
+</body>
+
+</html>
